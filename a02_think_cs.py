@@ -52,4 +52,3 @@ w.write("Computer Scientist",move=False,align='center',font=("Arial",30,("bold",
 wn.exitonclick()
 
 
-
