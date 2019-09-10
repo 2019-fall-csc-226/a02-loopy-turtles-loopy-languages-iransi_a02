@@ -18,19 +18,25 @@ for i in range(36):
 bert.end_fill()
 head =16
 pen = 10
-
-bert.penup()
-bert.forward(130)
-bert.right(90)
-bert.forward(90)
-bert.pendown()
-bert.color('green')
-
-bert.forward(160)
-bert.left(280)
-bert.circle(-50, 100)
+import turtle
+bret = turtle.Turtle()
+bret.penup()
+bret.forward(140)
+bret.right(90)
+bret.forward(100)
+bret.pendown()
+bret.color('green')
+bret.forward(20)
+bret.begin_fill()
+bret.forward(160)
+bret.left(280)
+bret.circle(-70, 90)
 bert.right(150)
 
-bert.circle(200, 140)
+bret.right(118)
+bret.circle(-170, 36)
+bret.end_fill()
+
+
 turtle.done()
 
